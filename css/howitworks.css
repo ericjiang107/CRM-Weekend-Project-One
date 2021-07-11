@@ -117,6 +117,10 @@ li {
 
 /* Image Left and Text Right1 */
 
+.col-lg-4 {
+    border-radius: 20px 0 0 20px;
+}
+
 .Hungry {
     text-align: center;
     padding: 40px;
