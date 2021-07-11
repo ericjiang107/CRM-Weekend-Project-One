@@ -1,0 +1,28 @@
+.row .but {
+  position: center;
+  top: 25%;
+  right: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: blue;
+  color:  white;
+  font-size: 16px;
+  padding: 10px 29px;
+  border-color: white;
+  cursor: pointer;
+  border-radius: 100px;
+  text-align: center;
+  width: 20px;
+}
+
+.row .but:hover {
+  background-color: blue;(255, 255, 255);
+}
+.form{
+  border-radius:100px;
+  border-width:0cm
+}
+
+.btn {
+  padding: 3px 40px; 
+}
