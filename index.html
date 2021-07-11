@@ -12,18 +12,135 @@
 
 <title>Title</title>
 </head>
+    <link rel="stylesheet" 
+    href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .input-icons i {
+            position: absolute;
+        }
+          
+        .input-icons {
+            width: 100%;
+            margin-bottom: 10px;
+
+        }
+          
+        .icon {
+            padding: 30px;
+            
+        }
+          
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+
+ /* this is for the button on the picture */
+
+ .container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 190%;
+  height: 100%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 23%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-color: white;
+  cursor: pointer;
+  border-radius: 100px;
+  text-align: center;
+  padding: 3px 40px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+img.background{
+    aspect-ratio: 1:1;
+    min-width: 550px;
+}
+
+
+</style>
 <body>
     <div class="container-lg">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-6 offset-1">
                 <img src="/assets/Custompics/CroppedSIBG50hope.png" alt="art">
-            </div>
+            </div> -->
+            <!-- the code above is Ian's so dont delete -->
+        <div class="row" >
+            <!-- <div class="col-lg-6" id="pic" >
+                <img  src="/assets/Custompics/CroppedSIBG50hope.png" alt="art">
+                <button class="btn btn-primary btn-lg m-3 rounded-pill">Sign Up</button>
+            </div>   -->
+
+            <div class="container">
+                <img class="background" src="/assets/Custompics/CroppedSIBG50hope.png" alt="art" style="width:100%">
+                <button class="btn signin">Sign Up</button>
+              </div>
+
+
 
             
-            <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
+            <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center">
+                <center>
+                    <form style="max-width:450px;margin:auto">
+                        <h1>Sign In</h1>
+                        <br>
+                        <div class="input-icons">
+                            <i class="fa fa-user icon">
+                          </i>
+                            <input class="input-field rounded-pill m-2"  
+                                   type="text">
+                        </div>
+              
+                        <div class="input-icons">
+                            <i class="fa fa-envelope icon">
+                          </i>
+                            <input class="input-field rounded-pill m-2" 
+                                   type="text">
+                        </div>
+              
+                        <div class="input-icons">
+                            <i class="fa fa-lock icon">
+                          </i>
+                            <input class="input-field rounded-pill m-2" 
+                                   type="password">
+                        </div>
+                    </form>
+                    
+                        <button class="btn btn-primary btn-lg m-3 rounded-pill"><b>Sign In</b></button>
+                            <h6>Or Sign up with social platforms</h6>
+    
+                    <div class="photos p-3">
+                        <a href="#"><img class="bottomlogos" src="assets/Custompics/facebooklogo.png" alt="Facebook"></a>
+                        <a href="#"><img class="bottomlogos" src="assets/Custompics/twitterlogo.png" alt="Facebook"></a>
+                        <a href="#"><img class="bottomlogos" src="assets/Custompics/googlelogo.png" alt="Facebook"></a>
+                        <a href="#"><img class="bottomlogos" src="assets/Custompics/linkedinlogo.png" alt="Facebook"></a>
+                    </div>
+                </center> 
+            </div>
                 
-                
-                    <h1 class="mb-4 display-2 "><b>Sign In</b></h1>
+                    <!-- <h1 class="mb-4 display-2 ">
+                        <b>Sign In</b>
+                    </h1>
     
                     
                         
@@ -33,10 +150,11 @@
                           <br>
                         <input type="password" placeholder="#" class="form-control-lg rounded-pill m-2">
                           <br>
-                    
+                     -->
                 
                     
-                    <button class="btn btn-primary btn-lg m-3 rounded-pill">Sign Up</button>
+        
+                    <!-- <button class="btn btn-primary btn-lg m-3 rounded-pill"<b>Sign In</b></button>
                     <h6>Or Sign up with social platforms</h6>
     
                     <div class="photos p-3">
@@ -44,9 +162,9 @@
                         <a href="#"><img class="bottomlogos" src="assets/Custompics/twitterlogo.png" alt="Facebook"></a>
                         <a href="#"><img class="bottomlogos" src="assets/Custompics/googlelogo.png" alt="Facebook"></a>
                         <a href="#"><img class="bottomlogos" src="assets/Custompics/linkedinlogo.png" alt="Facebook"></a>
-                    </div>
+                    </div> -->
             </div>   
-        </div>
+        
     </div>
 
 
