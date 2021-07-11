@@ -160,14 +160,14 @@ li {
 }
 
 .Learnmore {
-    border-radius: 10px;
+    border-radius: 5px;
     color: #FFFFFF;
-    font-family: Brush Script MT;
+    /* font-family: Brush Script MT; */
     font-size: 20px;
     font-weight: 10;
     padding: 5px;
     background-color: blue;
-    border: solid white 2px;
+    border: solid black 2px;
     text-decoration: none;
     text-align: center;
     width: 250px;
@@ -178,11 +178,35 @@ li {
 }
 
 .Learnmore:hover {
-    background: yellow;
-    border-radius: 10px;
+    background: white;
+    border-radius: 5px;
     text-decoration: none;
 }
 
+.Learnmorebutton{
+    border-radius: 5px;
+    color: black;
+    /* font-family: Brush Script MT; */
+    font-size: 20px;
+    font-weight: 10;
+    padding: 5px;
+    background-color: white;
+    border: solid black 2px;
+    text-decoration: none;
+    text-align: center;
+    width: 250px;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.Learnmorebutton:hover{
+    background: blue;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+}
 
 .buttonsssss {
     padding-bottom: 100px;
