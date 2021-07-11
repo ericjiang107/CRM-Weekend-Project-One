@@ -20,11 +20,11 @@ a {
 }
 
 .Get-Started {
-    border-radius: 10px;
+    border-radius: 5px;
     color: #FFFFFF;
-    font-family: Brush Script MT;
+    /* font-family: Brush Script MT; */
     font-size: 20px;
-    font-weight: 10;
+    font-weight: 5;
     padding: 5px;
     background-color: #38C978;
     border: solid black 1px;
@@ -38,22 +38,22 @@ a {
 
 .Get-Started:hover {
     background: yellow;
-    border-radius: 10px;
+    border-radius: 5px;
     text-decoration: none;
 }
 
 .chat-with-us {
-    border-radius: 10px;
+    border-radius: 5px;
     color: #0059A0;
-    font-family: Brush Script MT;
+    /* font-family: Brush Script MT; */
     font-size: 20px;
-    font-weight: 10;
+    font-weight: 5;
     padding: 5px;
     background-color: white;
     border: solid black 1px;
     text-decoration: none;
     text-align: center;
-    width: 160px;
+    width: 180px;
     margin: 20px;
     float: left;
     font-weight: bold;
@@ -61,7 +61,7 @@ a {
  
 .chat-with-us:hover {
     background: yellow;
-    border-radius: 10px;
+    border-radius: 5px;
     text-decoration: none;
 }
 
