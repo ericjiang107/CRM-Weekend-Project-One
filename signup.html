@@ -11,49 +11,103 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <link rel="stylesheet" href="assets/css/signup.css">
 <!-- RENAME THE STYLE SHEET -->
-<title>Title</title>
+<title>Sign Up page</title>
+<style>
+.input-icons i {
+    position: absolute;
+}
+          
+.input-icons {
+    width: 100%;
+    margin-bottom: 19px;
+}
+          
+.icon {
+    padding: 31px;
+            
+}
+          
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+    
+.container .img{
+    width: 90%;
+    height: 100%;
+}
+
+img.background{
+    aspect-ratio: 1:1; 
+    min-width: 500px;
+}
+
+.button{
+    padding: 2px 40px;
+}
+
+
+</style>
 </head>
 <body>
 
+        
     <div class="container-lg">
         <div class="row">
             
-            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                <h1 class="mb-4 display-2 "><b>Sign Up</b></h1>
-
-                
-                    
-                    <input type="email" placeholder="#" class="form-control-lg rounded-pill m-2">
-                      <br>
-                    <input type="email" placeholder="#" class="form-control-lg rounded-pill m-2">
-                      <br>
-                    <input type="password" placeholder="#" class="form-control-lg rounded-pill m-2">
-                      <br>
-                
-            
-                
-                <button class="btn btn-primary btn-lg m-3 rounded-pill">Sign Up</button>
-                <h6>Or Sign up with social platforms</h6>
-
-                <div class="photos p-3">
-                    <a href="#"><img class="bottomlogos" src="assets/Custompics/facebooklogo.png" alt="Facebook"></a>
-                    <a href="#"><img class="bottomlogos" src="assets/Custompics/twitterlogo.png" alt="Facebook"></a>
-                    <a href="#"><img class="bottomlogos" src="assets/Custompics/googlelogo.png" alt="Facebook"></a>
-                    <a href="#"><img class="bottomlogos" src="assets/Custompics/linkedinlogo.png" alt="Facebook"></a>
-                </div>
-             
-                
-                
-            </div>
-            
-            <div class="col-md-7">
-                <img class="img-fluid" src="/assets/Custompics/CroppedSUBG908070.png" alt="art">
-            </div>
+            <div class="col-lg-5 d-flex flex-column justify-content-center align-items-center">
+                <center>
+                    <form style="max-width:450px;margin:auto">
+                        <h1><b>Sign Up</b></h1>
+                        <br>
+                        <div class="input-icons">
+                            <i class="fa fa-user icon">
+                          </i>
+                            <input class="input-field rounded-pill m-2"  
+                                   type="text">
+                        </div>
               
+                        <div class="input-icons">
+                            <i class="fa fa-envelope icon">
+                          </i>
+                            <input class="input-field rounded-pill m-2" 
+                                   type="text">
+                        </div>
+              
+                        <div class="input-icons">
+                            <i class="fa fa-lock icon">
+                          </i>
+                            <input class="input-field rounded-pill m-2" 
+                                   type="password">
+                        </div>
+                    </form>
+
+                    
+                        <button class="btn btn-primary btn-lg m-3 rounded-pill"><b>&nbsp&nbsp&nbsp&nbsp Sign Up &nbsp&nbsp&nbsp&nbsp</b></button>
+                    <div class="dumb">
+                        <h6>Or Sign up with social platforms</h6> 
+                    </div>
+
+                    <div class="photos p-3">
+                        <a href="#"><img class="bottomlogos" src="assets/Custompics/facebooklogo.png" alt="Facebook"></a>
+                        <a href="#"><img class="bottomlogos" src="assets/Custompics/twitterlogo.png" alt="Facebook"></a>
+                        <a href="#"><img class="bottomlogos" src="assets/Custompics/googlelogo.png" alt="Facebook"></a>
+                        <a href="#"><img class="bottomlogos" src="assets/Custompics/linkedinlogo.png" alt="Facebook"></a>
+                    </div>
+                </center> 
+            </div>    
+                
+            <div class="col-md-7"> 
+            
+            <div class="container">
+                <img class="background" src="/assets/Custompics/CroppedSUBG908070.png" alt="art" stlye="width:100%">
+            </div>
+            
+              </div>
         
         </div>
     </div>
-
 
 
 </body>
