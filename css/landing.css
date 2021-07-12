@@ -1,12 +1,20 @@
+h4 {
+    font-weight: Bold;
+}
+.text-center-font {
+    font-size: 12px
+}
+
 .Icon-mid-text {
     text-align: center;
     font-size: 22px;
-    font-weight: bold;
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .padding27 {
     padding-bottom: 50px;
+    font-weight: bold;
 }
 
 .image-text-bottom {
@@ -17,7 +25,7 @@
 }
 
 .moretextmorewords {
-    font-size: 14px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 }
@@ -27,9 +35,7 @@
     color: black;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 /* Footer css styles */
 
@@ -187,15 +193,16 @@ li {
     border-radius: 5px;
     color: black;
     /* font-family: Brush Script MT; */
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 10;
     padding: 5px;
+    padding-left:20px;
     background-color: white;
     border: solid black 2px;
     text-decoration: none;
     text-align: center;
     width: 250px;
-    float: left;
+    float: center;
     font-weight: bold;
     margin-bottom: 40px;
     margin-top: 30px;
@@ -207,6 +214,8 @@ li {
     text-decoration: none;
     color:white;
 }
+
+
 
 .buttonsssss {
     padding-bottom: 100px;
