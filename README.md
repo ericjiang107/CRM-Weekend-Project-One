@@ -1,8 +1,7 @@
-<!-- Section talking about the project -->
-SO
-Eric added this
-Empty.
-And I am writing in it now.
-My team is
-Amazing.
-The end.
+Eric:
+This weekend has been one of the most painful 2 days of my "break." There were many issues that we overlooked and ended up causing us to backtrack a lot. Majority of the time, it was with Github. On the bright side, we learned a lot about it, forking, pulling, and pushing (mainly with the interface and how it works). I focused on creating the image boxes with text on the right, center text, as well as the footer from the "How-It-Works" and "Landing" pages. One thing this project has taught me is that given everybody's time difference, it was somewhat difficult to designate a proper time that worked with us all since some would be morning and others would be night, etc. Definitely, our teamwork has improved significantly, I learned how to organize documents so that each group member would have a designated code location so we can prevent merge conflicts (even when there were, we know what code goes where). To be honest, we were more focused on getting the actual website running than Github which really wasn't the case. We should've focused more on establishing Github and how fork/pull/push works ahead of time since, again, majority of our delays were caused by Github issues. Another thing that this project has taught me was how to debug code. We were on call for several hours looking at each other's code, trying to understand what is happening so I can confidently say that my debugging/code reading comprehension has gotten much better. Throughout this project, to be honest, we actually enjoyed the website creation aspect. We were having fun and messing around with a lot of the code, so much that I would say we had a blast. But all in all, Github gets me tight when it doesn't want to work. I be starring at the terminal for like an hour trying to figure out what's causing the error or why it's not working. Really should've outsourced the project to someone internationally, jk. My most favorite part about this project was when we had to copy and paste our code on slack and go line by line to see what changes were made and where/what to copy and paste.
+
+Ian:
+My part: I coordinated the team through my leadership and command of the central repository. I provided the principle suggestions for dividing work. I oversaw the methods for the general layout of the signup and and signin pages. I constructed the code for the header sections just underneath the navigation bar. I made myriad adjustments to the format of all four pages, and assisted in debugging errors.
+
+My learning: Working with my team was a blast. It was interesting to see how working as a team held us back in some ways and spurred us far forward in others. I can confidently and enthusiastically say that everyone pulled their weight. This exercise was also a great opportunity to further explore page layout and responsiveness. I will summarize: What I learned from this assignment I credit to its own experience, and to my colleagues. Special credit to Zach Porros, who came to help our group when we were stuck on github problems.
